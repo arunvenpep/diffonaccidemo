@@ -1,0 +1,8 @@
+.yarn/install-state.gz
+.yarn/unplugged/*
+.yarn/cache
+dist/
+node_modules
+public/index.js
+public/index.js.map
+.pnp*

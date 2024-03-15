@@ -1,0 +1,21 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist/node",
+        "declaration": true,
+        "lib": ["ES2020", "ESNext.Array", "DOM"],
+        "jsx": "react",
+        "moduleResolution": "node",
+        "strict": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true
+    },
+    "exclude": [ "**/dist" ]
+}
